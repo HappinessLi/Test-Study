@@ -18,5 +18,14 @@ public class TestFormerlySerializedAs : MonoBehaviour
 
     private void Awake()
     {
+        if (m_NewArgs != null) { Debug.Log("this is not null");  }
+    }
+
+    /// <summary>
+    /// 测试编码格式
+    /// </summary>
+    private void Func()
+    {
+
     }
 }
